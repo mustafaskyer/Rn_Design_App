@@ -6,5 +6,5 @@
   * IGNITE_NATIVEBASE
   * lodash
   
-if this help you any way , i'll be very happy :) --
+if this help you any way , i'll be very happy :) *.
 feel free to message me [twitter account](https://twitter.com/skirmustafa)
