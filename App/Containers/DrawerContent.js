@@ -11,16 +11,16 @@ class DrawerContent extends Component {
 		const items = this.props.items;
 		return (
 			<View style={styles.container}>
-				<Image source={Images.logoDark} style={styles.logo} />
+				<Image source={ require('../Images/logo.jpeg') } style={{ width:100, height:100 }} />
 				<Content>
-					<List
-						dataArray={items}
-						renderRow={item => (
-							<ListItem onPress={() => navigation.navigate(item.routeName)}>
-								<Text>{item.routeName}</Text>
-							</ListItem>
-						)}
-					/>
+					<List>
+						<ListItem onPress={() => navigation.navigate('HomeScreen')}>
+							<Text>Home</Text>
+						</ListItem>
+						<ListItem onPress={() => navigation.navigate('Login')}>
+							<Text>Logout</Text>
+						</ListItem>
+					</List>
 				</Content>
 			</View>
 		);
